@@ -1,0 +1,86 @@
+/* Color palette */
+
+header {
+  width: 100%;
+  background-color: #043514;
+  border: solid 1px #979797;
+  position:fixed;
+  color:#79bf98;
+  border-bottom-color:#979797;
+  border-bottom-width:2px;
+}
+
+#lheadbox{
+	width:10%;
+	float:left;
+}
+
+#rheadbox{
+	width:80%;
+	float:left;
+}
+
+header ul{
+	list-style-type:none;
+}
+
+header ul li a {
+	text-decoration:none;
+	color:;#79bf98;
+}
+
+header ul li a:visited{
+	color:#79bf98;
+}
+
+header li {
+	display:inline-block;
+	font-size:1.5em;
+	padding:1%;
+}
+
+body{
+	padding:0px;
+	margin:0px;
+	font-family: HelveticaNeue;
+}
+
+#headerlogo {
+	width:60%;
+	height:60%;
+	margin-top:4%;
+	margin-left:4%;
+}
+
+.nrow:after {
+	content:"";
+	clear:both;
+	display:block;
+}
+
+#homeLogo{
+	margin-top:14%;
+}
+
+#bgimg{
+	width:100%;
+	position:fixed;
+	z-index:-1;
+	margin-left:-50%;
+	margin-top:10px;
+}
+
+#code{
+	color:white;
+	font-size:3em;
+	margin-top:2%;
+	padding:0px;
+}
+
+#slogan{
+	color:white;
+	font-size:2em;
+	margin-top:2%;
+	padding:0px;
+	font-style:italic;
+}
